@@ -1,0 +1,622 @@
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+   
+  @font-face {
+    font-family: Segoe UI semibold;
+    src: url(/fonts/seguisb.ttf);
+  }
+  
+  @font-face {
+    font-family: Segoe UI regular;
+    src: url(/fonts/segoeui.ttf);
+  }
+  
+  @font-face {
+    font-family: Segoe UI light;
+    src: url(/fonts/segoeuil.ttf);
+  }
+ 
+    /*************Hero page min-width: 600px)************************/
+  
+      #main-page{
+      height: auto;
+      max-width: 100%;
+      background-image:none;
+    }
+
+    .topnav{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .topnav a{
+  
+      font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 2px 10px;
+      color: rgb(0, 0, 0);
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+  
+
+    .container{
+      width: 100%;
+      display: flex;
+      padding-top: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      align-self: center;
+      justify-content: space-between;
+    }
+
+  #button_apps{
+    margin-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(45deg,#640cff,#fb0900, #ffcd07);
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    
+  }
+    
+   
+    
+  #button_apps{
+    background: linear-gradient(45deg,#640cff,#fb0900, #ffcd07);
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    
+  }
+  
+   .info, .illustration {
+        flex: 100%;
+      }
+  
+  .logo img{
+    width: 120px;
+    height: 80px;
+  }
+  
+  header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    transition: top 0.3s;
+  }
+  
+  #hero{
+   margin-left: 30px;
+   margin-right: 30px;
+  }
+  .info{
+   width:100%;
+   height: auto;
+  }
+  
+  .info h1{
+  font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 63px;
+  align-items: center;
+  margin-top: 150px;
+  }
+  
+  .info p{
+   font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 31px;
+   color: rgb(37, 4, 4);
+   line-height: 47px;
+   margin-top: 24px ;
+  }
+  
+  #play-btn{
+    margin-top: 36px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    
+    }
+  
+  #learn{
+   border-radius: 4px;
+   border: 2px solid #7017eb;
+   color: black;
+   background-color: #ffffff00;
+   width: 165.34px;
+   height: 47.01px;
+   font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   margin-left: 35px;
+  }
+  
+  
+  #play{
+   border-radius: 4px;
+   background-image: url(/images/playimg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 165.34px;
+   height: 47.01px;
+  }
+  
+  .illustration{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding-top: 30px;
+  }
+  
+  
+  
+  /**********We build min-width: 600px)****************/
+  
+  
+  
+  #build-page{
+    background-image:none;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    } 
+  
+    #we_build{
+      height: auto;
+      margin-left: 30px;
+      margin-right: 30px;
+      
+      }
+      
+    .we-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    
+    }
+  
+    .content_wedo{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction:column;
+    }
+    
+    .content_wedo h1{
+    font-size: 63px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+   
+    }
+    
+    .content_wedo p{
+    margin-top: 40.6px;
+    font-size: 31px;
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 47px;
+    }
+  
+    div br {
+      display: none;
+    }
+  
+    .content_wedo button{
+    width: 50%;
+    height: 50.87px;
+    margin-top: 63px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    background-color: #640cff;
+    font-size: 24px;
+    color: white;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .content_wedo a{
+    font-size: 24px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #6107ff;
+    margin-top: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    }
+  
+  
+  /**********************OurApps min-width: 600px)*******************/
+  
+    
+  
+  #our_apps{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    }
+    
+    .container-apps{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+    }
+    .ourApps-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    }
+    
+    .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+    }
+    
+    .content h1{
+    font-size: 63px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .content p{
+    font-size: 31px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 38px;
+    letter-spacing: 1px;
+    line-height: 47px;
+  
+    }
+    
+    #appIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    }
+  
+    #appIcon img{
+      width: 300px;
+    height: 300px;
+    }
+    
+    #feature-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    }
+    #feature-id{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    }
+    
+    #feature-id h2{
+    font-size: 40px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+    
+    .features{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    }
+    
+    .card {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 #bbeaff;
+    transition: 0.3s; */
+    width: 70%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+    }
+    
+    .card h4 {
+    font-size: 31px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5d00ff;
+    margin-top: 0px;
+    padding: 10px;
+    }
+    .card p{
+    margin-top: 0px;
+    font-size: 24px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   
+  
+    
+  /**************************Contact Us page min-width: 600px)**************************/
+  
+  
+  #contact-page{
+    width: 100%;
+    height: auto;
+    background-image:none;
+    }
+    #contact_us{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: auto;
+    }
+    
+    .contact{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    }
+  
+    .text-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 170px;
+    flex-direction: column;
+    order: 2;
+    margin-top: 50px;
+    }
+    
+    .text-content h2{
+    font-size: 43px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+  
+    .text-content p{
+    font-size: 29px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 13px;
+    letter-spacing: 2px;
+    color: #ca0a52;
+    }
+    
+    .contact_form{
+    
+    width: 100%;
+    height: auto;
+    order: 1;
+    
+    }
+    
+    .contact_form2{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .contact_form h1{
+    margin-top: 60.5px;
+    font-size: 63px;
+    font-family: 'Segoe UI semibold', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .contact_form form{
+    margin-top: 30px;
+    }
+    
+    label{
+    font-size: 31px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    }
+    
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid rgb(148, 148, 148);
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 22.3px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: 70px;
+    font-size: 22px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    }                  
+    
+    input[type=text]:focus {
+    border: 2px solid #00ccff;
+    }
+    #subject:focus {
+    border: 2px solid #00ccff;
+    }
+    
+    input[type=submit] {
+    background-color: #5d00ff;
+    margin-top: 10.6px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 70.00px;
+    width: 344.85px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+  
+    
+    /*************************Footer section min-width: 600px)****************/
+  
+  
+    
+  #footer{
+    height: auto;
+    width: 100%;
+    background-color:#08042f;
+    }
+    
+    .footer-container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .footer-item{
+    display: inline;
+    width: 100%;
+    height: auto;
+    }
+    .footer-item1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding-left:5%;
+    
+    }
+    .footer-item1 a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    #footer1{
+      order: 3;
+    }
+   
+    
+    #apps-button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5%;
+    padding-right: 25px;
+    background: linear-gradient(45deg,#640cff,#fb0900, #ffcd07);
+    color: white;
+    border-radius: 10px;
+    }
+    
+    #footer1 p{
+    padding-top: 10px;
+    padding-left: 5%;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #footer-item2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 79.2px;
+    
+    }
+    
+    #social-media-links p{
+    color: white;
+    font-size: 31px;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 79.2px;
+    margin-left: 36%;
+    
+    }
+    
+    #social-media-links img{
+      display: none;
+    }
+    
+    .footer-item img:hover{
+      cursor: pointer;
+    }
+    
+    
+    .footer-item2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    }
+    
+    .footer-item2 a{
+    text-decoration: none;
+    width: 52.91px;
+    height: 52.91px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    }
+    
+    .footer-item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    margin-left: 5%;
+    }
+    
+    .footer-item3 a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .footer-item  img{
+      margin-left: 5%;
+      margin-top: 30px;
+    }
+  }
+  
